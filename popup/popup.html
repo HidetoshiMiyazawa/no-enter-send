@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>No Enter Send</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 12px; min-width: 300px; }
+    .row { display: flex; align-items: center; justify-content: space-between; margin: 6px 0; gap: 8px; }
+    ul { padding-left: 16px; }
+    li { margin: 2px 0; }
+    button { margin-left: 8px; }
+  </style>
+</head>
+<body>
+  <h3>No Enter Send</h3>
+
+  <div class="row">
+    <label><input type="checkbox" id="siteToggle"> このサイトで有効にする</label>
+  </div>
+
+  <hr>
+  <h4>有効なサイト一覧</h4>
+  <ul id="siteList"></ul>
+
+  <script src="../src/util.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
